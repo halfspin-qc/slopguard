@@ -1,0 +1,7 @@
+- id: slopguard
+  name: slopguard (check for hallucinated packages)
+  description: Verifies every declared dependency actually exists on its registry before allowing the commit.
+  entry: slopguard
+  language: python
+  pass_filenames: false
+  always_run: true
